@@ -281,3 +281,6 @@ with torch.no_grad():
         y_true = np.append(y_true, y_val)
 
         print(confusion_matrix(y_true, y_pred))
+        
+   
+
